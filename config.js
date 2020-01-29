@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 module.exports = {
   url: "https://pgs787.github.io",
   pathPrefix: "/",
-  title: "Blog by John Doe",
+  title: "Blog by 빡기",
   subtitle:
     "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   copyright: "© All rights reserved.",
@@ -15,31 +15,23 @@ module.exports = {
     {
       label: "Articles",
       path: "/"
-    },
-    {
-      label: "About me",
-      path: "/pages/about"
-    },
-    {
-      label: "Contact me",
-      path: "/pages/contacts"
     }
   ],
   author: {
-    name: "John Doe",
+    name: "빡기",
     photo: "/photo.jpg",
     bio:
       "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
     contacts: {
       email: "",
-      facebook: "#",
-      telegram: "#",
-      twitter: "#",
-      github: "#",
+      facebook: "",
+      telegram: "",
+      twitter: "",
+      github: "pgs787",
       rss: "",
       vkontakte: "",
-      linkedin: "#",
-      instagram: "#",
+      linkedin: "",
+      instagram: "",
       line: "",
       gitlab: "",
       weibo: "",
