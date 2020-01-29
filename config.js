@@ -4,8 +4,7 @@ module.exports = {
   url: "https://pgs787.github.io",
   pathPrefix: "/",
   title: "Blog by 빡기",
-  subtitle:
-    "",
+  subtitle: "",
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
@@ -20,8 +19,7 @@ module.exports = {
   author: {
     name: "빡기",
     photo: "/photo.jpg",
-    bio:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    bio: "",
     contacts: {
       email: "",
       facebook: "",
