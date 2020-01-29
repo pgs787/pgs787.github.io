@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Jan 2020 05:56:25 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29) Wecode study 2일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Jan 2020 13:12:16 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29) Wecode study 2일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot;&gt;JavaScript란?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#%ED%8A%B9%EC%A7%95&quot;&gt;특징&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란?&lt;/h2&gt;
+&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;넷스케이프 커뮤니케이션즈사(Netscape Communications)가 개발한 스크립트 언어&lt;/li&gt;
 &lt;li&gt;웹을 풍부하게 만들어주는 작고 가벼운 언어&lt;/li&gt;
@@ -14,25 +14,103 @@
 &lt;ul&gt;
 &lt;li&gt;String + Number를 하는 경우 무조건 String으로 강제 형변환&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;전위(++num) vs 후위(num++) 증감 연산자 &lt;u&gt;!! 할당순서의 차이 !!&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;전위(++num) vs 후위(num++) 증감 연산자 &lt;u&gt;할당순서의 차이&lt;/u&gt; ❗❗&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;num++
-변수에 먼저 값을 할당 한 뒤 증감
+변수에 먼저 값을 할당 한 뒤 증가
 ++num
-숫자를 먼저 증감한 뒤 변수에 할당&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;함수선언식-vs-함수표현식-u호이스팅의-영향-u&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EC%8B%9D-vs-%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D-u%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%9D%98-%EC%98%81%ED%96%A5-u&quot; aria-label=&quot;함수선언식 vs 함수표현식 u호이스팅의 영향 u permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;함수선언식 vs 함수표현식 &lt;u&gt;호이스팅의 영향 !!&lt;/u&gt;&lt;/h4&gt;
+숫자를 먼저 증가한 뒤 변수에 할당&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;함수선언식-vs-함수표현식-u호이스팅의-영향u-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EC%8B%9D-vs-%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D-u%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%9D%98-%EC%98%81%ED%96%A5u-&quot; aria-label=&quot;함수선언식 vs 함수표현식 u호이스팅의 영향u  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;함수선언식 vs 함수표현식 &lt;u&gt;호이스팅의 영향&lt;/u&gt; ❗❗&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;자바스크립트는 기본적으로 ES6에 추가 된 변수형인 let,const도 호이스팅에 영향을 안준다&lt;/li&gt;
 &lt;li&gt;함수선언식은 호이스팅이 되는 반면에 함수표현식은 호이스팅에 영향을 안 받는다&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;즉, var형태를 제외하고 나머지(함수 표현식 제외)는 전부 호이스팅 영향을 받지 않음!!&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;즉, var형태를 제외하고 나머지(함수 표현식 제외)는 전부 호이스팅 영향을 받지 않음&lt;/u&gt;❗❗&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&quot;호이스팅이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;호이스팅이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;호이스팅이란❔&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;브라우저가 위치와 관계없이 js를 해석할때 맨위로 끌어 올리는 행위&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;일반-함수-vs-화살표-함수-uthis의-차이-u&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%BC%EB%B0%98-%ED%95%A8%EC%88%98-vs-%ED%99%94%EC%82%B4%ED%91%9C-%ED%95%A8%EC%88%98-uthis%EC%9D%98-%EC%B0%A8%EC%9D%B4-u&quot; aria-label=&quot;일반 함수 vs 화살표 함수 uthis의 차이 u permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;일반 함수 vs 화살표 함수 &lt;u&gt;this의 차이 !!&lt;/u&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;일반-함수-vs-화살표-함수-uthis의-차이u-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%BC%EB%B0%98-%ED%95%A8%EC%88%98-vs-%ED%99%94%EC%82%B4%ED%91%9C-%ED%95%A8%EC%88%98-uthis%EC%9D%98-%EC%B0%A8%EC%9D%B4u-&quot; aria-label=&quot;일반 함수 vs 화살표 함수 uthis의 차이u  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;일반 함수 vs 화살표 함수 &lt;u&gt;this의 차이&lt;/u&gt; ❗❗&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;클로저처럼 내부메소드가 감싸져있는 함수의 변수를 가리키는 것&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[HTML,CSS]]></title><description><![CDATA[(1/28) Wecode study 1일차]]></description><link>https://pgs787.github.io/pages/posts/html-css</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/html-css</guid><pubDate>Tue, 28 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;문자열-함수-string&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%95%A8%EC%88%98-string&quot; aria-label=&quot;문자열 함수 string permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문자열 함수 (String)&lt;/h2&gt;
+&lt;h3 id=&quot;--대소문자-구별하는-함수-touppercasetolowercase&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--%EB%8C%80%EC%86%8C%EB%AC%B8%EC%9E%90-%EA%B5%AC%EB%B3%84%ED%95%98%EB%8A%94-%ED%95%A8%EC%88%98-touppercasetolowercase&quot; aria-label=&quot;  대소문자 구별하는 함수 touppercasetolowercase permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- 대소문자 구별하는 함수 (toUpperCase,toLowerCase)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;let lastName = &amp;#39;Yeri Kim&amp;#39;;
+let upperLastName = lastName.toUpperCase(); // YERI KIM
+let lowerLastName = lastName.toLowerCase(); // yeri kim&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;--문자열-안에-특정-문자열-있는지-체크-indexof&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%95%88%EC%97%90-%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%88%EB%8A%94%EC%A7%80-%EC%B2%B4%ED%81%AC-indexof&quot; aria-label=&quot;  문자열 안에 특정 문자열 있는지 체크 indexof permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- 문자열 안에 특정 문자열 있는지 체크 (indexOf)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;let info = &amp;quot;JavaScript는 프로래밍 언어이다.&amp;quot;;
+let firstChar = info.indexOf(&amp;quot;프로래밍&amp;quot;);
+console.log(info, firstChar);
+
+if (firstChar !== -1) {     // firstChar !== -1 =&amp;gt; 프로래밍 문구가 있다면으로 해석
+  info = info.slice(0, firstChar) + &amp;quot;프로그래밍&amp;quot; + info.slice(firstChar+4, info.length);
+}
+// 출력 - JavaScript는 프로그래밍 언어이다&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;--날짜-관련-함수-new-date-getfullyear-등&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--%EB%82%A0%EC%A7%9C-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98-new-date-getfullyear-%EB%93%B1&quot; aria-label=&quot;  날짜 관련 함수 new date getfullyear 등 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- 날짜 관련 함수 (new Date, getFullYear 등)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// ❗❗ 날짜의 기준이 되는 날은 1970년 1월 1일 ❗❗
+let rightNow = new Date(); // 2019-02-18T00:45:06.562Z (GMT기준 시간)
+let year = rightNow.getFullYear();
+let month = rightNow.getMonth()+1; // 달은 0부터 시작이라 +1 해야함!!!
+let date = rightNow.getDate();
+let day = rightNow.getDay();
+let currentHour = rightNow.getHours();
+let currentMin = rightNow.getMinutes();
+let time = rightNow.getTime();  // 시간초로 나타내줌
+
+// 특정 날짜의 Date 확인 예시
+let date1 = new Date(&amp;#39;December 17, 2019 03:24:00&amp;#39;);
+let date2 = new Date(&amp;#39;2019-12-17T03:24:00&amp;#39;);
+let date3 = new Date(2019, 5, 1);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;--수학math관련-함수-random-floor-round-등&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--%EC%88%98%ED%95%99math%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98-random-floor-round-%EB%93%B1&quot; aria-label=&quot;  수학math관련 함수 random floor round 등 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- 수학(Math)관련 함수 (random, floor, round 등)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Math.random(); // 0.000000 ~ 9.999999 출력
+Math.round(); // 반올림
+Math.floor(); // 버림
+Math.ceil(); // 올림
+
+Math.floor(Math.random()*최대범위)+최소범위; // 랜덤 함수 최소 최대 범위 지정
+Math.floor(Math.random()*(max-min+1))+min; // 예시&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;--객체의-형태-object&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--%EA%B0%9D%EC%B2%B4%EC%9D%98-%ED%98%95%ED%83%9C-object&quot; aria-label=&quot;  객체의 형태 object permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- 객체의 형태 (Object)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;let plan1 = {
+  name: &amp;quot;Basic&amp;quot;,
+  price: 3.99,
+  space: 100,
+  transfer: 1000,
+  pages: 10
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;프로퍼티 중복 X&lt;/li&gt;
+&lt;li&gt;프로퍼티는 어떤 타입이든 가능&lt;/li&gt;
+&lt;li&gt;객체를 정의한 후 프로퍼티 값 수정 및 추가 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;함수-스코프에-따른-코드-오염&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%A8%EC%88%98-%EC%8A%A4%EC%BD%94%ED%94%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%BD%94%EB%93%9C-%EC%98%A4%EC%97%BC&quot; aria-label=&quot;함수 스코프에 따른 코드 오염 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;함수 스코프에 따른 코드 오염&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;global 변수를 선언하면 어디에서나 사용 가능 한 global namespace 보유&lt;/li&gt;
+&lt;li&gt;namespace : 변수 이름을 사용할 수 있는 범위&lt;/li&gt;
+&lt;li&gt;global 변수는 프로그램 종료 시 까지 생존&lt;/li&gt;
+&lt;li&gt;local 변수는 block이 끝나면 죽음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;const satellite = &amp;#39;The Moon&amp;#39;;
+const galaxy = &amp;#39;The Milky Way&amp;#39;;
+let stars = &amp;#39;North Star&amp;#39;;
+
+const callMyNightSky = () =&amp;gt; {
+  stars = &amp;#39;Sirius&amp;#39;;
+
+  return &amp;#39;Night Sky: &amp;#39; + satellite + &amp;#39;, &amp;#39; + stars + &amp;#39;, &amp;#39; + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;-u오염의-예u&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-u%EC%98%A4%EC%97%BC%EC%9D%98-%EC%98%88u&quot; aria-label=&quot; u오염의 예u permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;⛔ &lt;u&gt;오염의 예&lt;/u&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;stars이라는 global 변수 존재&lt;/li&gt;
+&lt;li&gt;callMyNightSky함수에서 새로운 변수를 선언하고 싶었는데 깜빡하고 let 키워드를 작성 X&lt;/li&gt;
+&lt;li&gt;callMyNightSky을 호출하면 stars 변수에 “Sirius”이 할당&lt;/li&gt;
+&lt;li&gt;global 변수였던 stars에 영향&lt;/li&gt;
+&lt;li&gt;다른 함수에서 global 변수인 stars을 사용하고 싶은데 값이 수정된 “Sirius”으로 사용&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[HTML,CSS]]></title><description><![CDATA[(1/28) Wecode study 1일차]]></description><link>https://pgs787.github.io/pages/posts/html-css</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/html-css</guid><pubDate>Tue, 28 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#htmlhyper-text-markup-language%EB%9E%80&quot;&gt;HTML이란?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#csscascading-style-sheets%EB%9E%80&quot;&gt;CSS란?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
