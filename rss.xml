@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Jan 2020 13:12:16 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29) Wecode study 2일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Jan 2020 13:35:45 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29) Wecode study 2일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot;&gt;JavaScript란?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#%ED%8A%B9%EC%A7%95&quot;&gt;특징&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -156,7 +156,7 @@ inline =&gt; block&lt;/p&gt;
 &lt;li&gt;HTML 안에 있는 원하는 요소에 효과를 주고 싶을 때 선택가능하게 해주는 것&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;All Selector(전체 선택자)&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* {
   margin: 0 0 0 5px
   }
 
