@@ -19,9 +19,9 @@ module.exports = {
   author: {
     name: "빡기",
     photo: "/photo.jpg",
-    bio: "",
+    bio: "Front End .Develop",
     contacts: {
-      email: "",
+      email: "rltjd787@gmail.com",
       facebook: "",
       telegram: "",
       twitter: "",
