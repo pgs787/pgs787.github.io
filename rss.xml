@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 01:26:58 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29-30) Wecode study 2일,3일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 02:10:09 GMT</lastBuildDate><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29-30) Wecode study 2일,3일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;넷스케이프 커뮤니케이션즈사(Netscape Communications)가 개발한 스크립트 언어&lt;/li&gt;
 &lt;li&gt;웹을 풍부하게 만들어주는 작고 가벼운 언어&lt;/li&gt;
@@ -79,21 +79,87 @@ Math.floor(Math.random()*(max-min+1))+min; // 예시&lt;/code&gt;&lt;/pre&gt;&lt
 &lt;li&gt;프로퍼티는 어떤 타입이든 가능&lt;/li&gt;
 &lt;li&gt;객체를 정의한 후 프로퍼티 값 수정 및 추가 가능&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;객체-및-배열-순회-함수-for-in-foreach-for-map&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9D%EC%B2%B4-%EB%B0%8F-%EB%B0%B0%EC%97%B4-%EC%88%9C%ED%9A%8C-%ED%95%A8%EC%88%98-for-in-foreach-for-map&quot; aria-label=&quot;객체 및 배열 순회 함수 for in foreach for map permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;객체 및 배열 순회 함수 (for in, forEach, for, map)&lt;/h4&gt;
+&lt;h4 id=&quot;객체-및-배열-순회-함수-for-in-foreach-for-of-map&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9D%EC%B2%B4-%EB%B0%8F-%EB%B0%B0%EC%97%B4-%EC%88%9C%ED%9A%8C-%ED%95%A8%EC%88%98-for-in-foreach-for-of-map&quot; aria-label=&quot;객체 및 배열 순회 함수 for in foreach for of map permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;객체 및 배열 순회 함수 (for in, forEach, for of, map)&lt;/h4&gt;
+&lt;h4 id=&quot;--map-함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--map-%ED%95%A8%EC%88%98&quot; aria-label=&quot;  map 함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- map 함수&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// 문자열 배열에서 문자열 길이만 획득하기
+var arr = [&amp;#39;foo&amp;#39;, &amp;#39;hello&amp;#39;, &amp;#39;diamond&amp;#39;, &amp;#39;A&amp;#39;];
+var arr2 = arr.map(function (str) {
+    return str.length;
+});
+console.log(arr2); // [3, 5, 7, 1]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;map은 콜백 함수의 리턴을 모아서 새로운 배열을 만드는 것&lt;/li&gt;
+&lt;li&gt;기존 배열은 변경하지 않음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;--foreach문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--foreach%EB%AC%B8&quot; aria-label=&quot;  foreach문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- forEach문&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var items = [&amp;#39;item1&amp;#39;, &amp;#39;item2&amp;#39;, &amp;#39;item3&amp;#39;];
+
+items.forEach(function(item) {
+    console.log(item);
+});
+// 출력 결과: item, item2, item3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;foreach 반복문은 오직 Array 객체에서만 사용가능한 메서드&lt;/li&gt;
+&lt;li&gt;ES6부터 Map, Set 지원 가능&lt;/li&gt;
+&lt;li&gt;기존 배열이 수정 됨&lt;/li&gt;
+&lt;li&gt;return이 없지만 return을 선언하여 탈출 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;--for-in문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--for-in%EB%AC%B8&quot; aria-label=&quot;  for in문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- for in문&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var obj = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+
+for (var prop in obj) {
+    console.log(prop, obj[prop]); // a 1, b 2, c 3
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;객체 및 배열에 사용 가능&lt;/li&gt;
+&lt;li&gt;i를 0으로 초기화, 반복문이 몇번 돌지 내부적으로 결정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;--for-of문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--for-of%EB%AC%B8&quot; aria-label=&quot;  for of문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- for of문&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Symbol.iterator 속성을 가지는 컬렉션에 적용&lt;/li&gt;
+&lt;li&gt;Symbol이란 ❓&lt;br&gt;
+ES6에서 새롭게 추가된 7번째 타입&lt;br&gt;
+변경 불가능한 원시 타입의 값 (원시 값은 객체를 제외한 string,number, undefined, null, Boolean)&lt;br&gt;
+충돌 위험이 없는 유일한 &lt;strong&gt;&lt;u&gt;객체의 프로퍼티 키(property key)&lt;/u&gt;&lt;/strong&gt;를 만들기 위해 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var iterable = [10, 20, 30];
+
+for (var value of iterable) {
+  console.log(value); // 10, 20, 30
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;--for-in-vs-for-of-차이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--for-in-vs-for-of-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;  for in vs for of 차이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- for in vs for of 차이&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;for in 반복문 : 객체의 모든 열거 가능한 속성에 대해 반복&lt;/li&gt;
+&lt;li&gt;for of 반복문 : [Symbol.iterator] 속성을 가지는 컬렉션에 전용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var iterable = [3, 5, 7];
+iterable.foo = &amp;quot;hello&amp;quot;;
+
+for (var key in iterable) {
+  console.log(key); // 0, 1, 2, &amp;quot;foo&amp;quot;, &amp;quot;arrCustom&amp;quot;, &amp;quot;objCustom&amp;quot;
+}
+
+for (var value of iterable) {
+  console.log(value); // 3, 5, 7
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&quot;객체-안에-key-value-값-대입&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9D%EC%B2%B4-%EC%95%88%EC%97%90-key-value-%EA%B0%92-%EB%8C%80%EC%9E%85&quot; aria-label=&quot;객체 안에 key value 값 대입 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;객체 안에 key, value 값 대입&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;정적으로 바로 접근시 키 값을 유동적으로 변경 불가 (항상 정해진 값)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;//객체 생성 후 프로퍼티 추가1 (정적)
 var person = {};
 person.name = &amp;#39;홍길동&amp;#39;;
 person.age = 29;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;정적으로 바로 접근시 키 값을 유동적으로 변경 불가 (항상 정해진 값)&lt;/li&gt;
+&lt;li&gt;대괄호로 접근시 키 값을 동적으로 변경 할 수 있다&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;//객체 생성 후 프로퍼티 추가2 (동적)
 person[&amp;quot;name&amp;quot;] = &amp;#39;홍길동&amp;#39;;
 person[&amp;quot;age&amp;quot;] = 29;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;대괄호로 접근시 키 값을 동적으로 변경 할 수 있다&lt;/li&gt;
-&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;test_obj = {a:1, b:2};
 console.log(test_obj);
 
@@ -205,6 +271,12 @@ console.log(stars);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 브라우저 데이터 공간 차이점 사이트&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://junspapa-itdev.tistory.com/22&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://junspapa-itdev.tistory.com/22&lt;/a&gt;, &lt;a href=&quot;http://b1ix.net/266&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://b1ix.net/266&lt;/a&gt;&lt;br&gt;
 객체 안에 값 대입&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsdev.kr/t/for-in-vs-for-of/2938&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://jsdev.kr/t/for-in-vs-for-of/2938&lt;/a&gt;&lt;br&gt;
+배열 및 객체 순회&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://poiemaweb.com/es6-symbol&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://poiemaweb.com/es6-symbol&lt;/a&gt;
+JS symbol&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bblog.tistory.com/300&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bblog.tistory.com/300&lt;/a&gt;&lt;br&gt;
+map 함수&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[HTML,CSS]]></title><description><![CDATA[(1/28) Wecode study 1일차]]></description><link>https://pgs787.github.io/pages/posts/html-css</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/html-css</guid><pubDate>Tue, 28 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;htmlhyper-text-markup-language란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#htmlhyper-text-markup-language%EB%9E%80&quot; aria-label=&quot;htmlhyper text markup language란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML(Hyper Text Markup Language)란?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;웹 페이지를 만들기 위한 언어&lt;/li&gt;
