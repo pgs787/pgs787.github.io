@@ -1,23 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 04:30:21 GMT</lastBuildDate><item><title><![CDATA[HTML+CSS+JavaScript]]></title><description><![CDATA[(1/31) Wecode study 4일차]]></description><link>https://pgs787.github.io/pages/posts/html css javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/html css javascript</guid><pubDate>Fri, 31 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by 빡기]]></title><description><![CDATA[Blog by 빡기]]></description><link>https://pgs787.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Feb 2020 13:19:44 GMT</lastBuildDate><item><title><![CDATA[Instagram 클론 (HTML+CSS+JavaScript)]]></title><description><![CDATA[(1/31 - 2/3) Wecode study 4-6일차]]></description><link>https://pgs787.github.io/pages/posts/Instagram html css javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/Instagram html css javascript</guid><pubDate>Fri, 31 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript-추천-가이드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EC%B6%94%EC%B2%9C-%EA%B0%80%EC%9D%B4%EB%93%9C&quot; aria-label=&quot;javascript 추천 가이드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript 추천 가이드&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/airbnb/javascript&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Airbnb 가이드 사이트&lt;/a&gt; ⭐추천⭐&lt;br&gt;
+&lt;strong&gt;Airbnb는 프론트엔드 쪽에서 세계적으로 영향력이 크고 컨퍼런스도 자주 개최&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://google.github.io/styleguide/htmlcssguide.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub 가이드 사이트&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1a691zZsgQMZBftHI3RJpgy8CqYtTQi8ZSe3SMgU6Tac/edit#slide=id.g75ac57a38d_0_63&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;프론트엔드 개발자 김종민 포트폴리오&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;프론트엔드 분야에서 영향력이 큰 인물&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;자바스크립트 시각화 기술력이 상당함&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;리액트의-function-component-vs-class-component-차이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98-function-component-vs-class-component-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;리액트의 function component vs class component 차이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트의 function component vs class component 차이&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;function component는 렌더 당시의 값을 기억하고 사용&lt;/u&gt;&lt;/strong&gt; ❗❗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;--function-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--function-component&quot; aria-label=&quot;  function component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- function component&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function ProfilePage(props) {
+  const showMessage = () =&amp;gt; {
+    alert(&amp;#39;Followed &amp;#39; + props.user);
+  };
+
+  const handleClick = () =&amp;gt; {
+    setTimeout(showMessage, 3000);
+  };
+
+  return (
+    &amp;lt;button onClick={handleClick}&amp;gt;Follow&amp;lt;/button&amp;gt;
+  );
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;--class-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#--class-component&quot; aria-label=&quot;  class component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;- class component&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class ProfilePage extends React.Component {
+  showMessage = () =&amp;gt; {
+    alert(&amp;#39;Followed &amp;#39; + this.props.user);
+  };
+
+  handleClick = () =&amp;gt; {
+    setTimeout(this.showMessage, 3000);
+  };
+
+  render() {
+    return &amp;lt;button onClick={this.handleClick}&amp;gt;Follow&amp;lt;/button&amp;gt;;
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;setTimeout을 이용하여 네트워크에 요청을 보내고 응답을 돌려받는 코드&lt;/li&gt;
+&lt;li&gt;props.user가 Dan이라면 이코드는 ‘Followed Dan’ 이라는 메시지를 3초 호출&lt;/li&gt;
+&lt;li&gt;arrow function을 쓰는 것과 함수 선언을 하는 것이 이 예시에서는 아무런 차이 없음&lt;/li&gt;
+&lt;li&gt;arrow function 대신 function handleClick()을 써도 정확히 같은 방식으로 동작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;u차이점-설명u-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#u%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%84%A4%EB%AA%85u-&quot; aria-label=&quot;u차이점 설명u  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;u&gt;차이점 설명&lt;/u&gt; ❗❗❗❗&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://overreacted.io/386a449110202d5140d67336a0ade5a0/bug.gif&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⭐ &lt;u&gt;&lt;strong&gt;function 방식이 옳은 방식&lt;/strong&gt;&lt;/u&gt;⭐&lt;/li&gt;
+&lt;li&gt;팔로우 한 뒤 다른 사람의 프로필로 이동했다면 리액트 &lt;u&gt;component는 내가 팔로우한 대상을 헛갈려서는 안 됨&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;&lt;strong&gt;class의 이러한 작동 방식은 버그&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class ProfilePage extends React.Component {
+  showMessage = () =&amp;gt; {
+    alert(&amp;#39;Followed &amp;#39; + this.props.user);
+  };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;this.props.user를 가져와 읽는다&lt;/li&gt;
+&lt;li&gt;this는 &lt;u&gt;언제나 변하지만 props는 리액트에서 불변&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;showMessage 콜백은 어떠한 렌더에도 묶여 있지 않아 setTimeout이 this.props를 불러오도록 하는것은 그 관계를 망침&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;function-component가-없이-class-compoenet로-해결책&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#function-component%EA%B0%80-%EC%97%86%EC%9D%B4-class-compoenet%EB%A1%9C-%ED%95%B4%EA%B2%B0%EC%B1%85&quot; aria-label=&quot;function component가 없이 class compoenet로 해결책 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;✅function component가 없이 Class compoenet로 해결책!!&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class ProfilePage extends React.Component {
+  showMessage = (user) =&amp;gt; {
+    alert(&amp;#39;Followed &amp;#39; + user);
+  };
+
+  handleClick = () =&amp;gt; {
+    const {user} = this.props;
+    setTimeout(() =&amp;gt; this.showMessage(user), 3000);
+  };
+
+  render() {
+    return &amp;lt;button onClick={this.handleClick}&amp;gt;Follow&amp;lt;/button&amp;gt;;
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;렌더와 props 그리고 showMessage 콜백간의 관계를 props가 도중에 길을 잃지 않도록 고침&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;this.props를 이벤트 발생 초기에 읽고, 이 값을 timeout 함수에 넘기는 방법&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;하나의 prop이상을 사용해야 할때나 state를 함께 사용해야 할 때 this.props나 this.state를 인자로 줘야 함&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class ProfilePage extends React.Component {
+  render() {
+    // Capture the props!
+    const props = this.props;
+    // Note: we are *inside render*.
+    // These aren&amp;#39;t class methods.
+    const showMessage = () =&amp;gt; {
+      alert(&amp;#39;Followed &amp;#39; + props.user);
+    };
+
+    const handleClick = () =&amp;gt; {
+      setTimeout(showMessage, 3000);
+    };
+
+    return &amp;lt;button onClick={handleClick}&amp;gt;Follow&amp;lt;/button&amp;gt;;
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;이는 만약 당신이 한번 props나 state를 지정한다면, 당신은 언제나 변하지 않는 그 값에 접근할 수 있다는 의미&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;props를 렌더가 되는 시점에 잡으면 됨&lt;/strong&gt; =&gt; 특정 렌더에 해당하는 props를 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;currenttarget-vs-target&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#currenttarget-vs-target&quot; aria-label=&quot;currenttarget vs target permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;currentTarget vs target&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;currentTarget : 이벤트가 바인딩 상위 요소 리턴&lt;/li&gt;
+&lt;li&gt;target : 선택된 해당 요소를 리턴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;url-링크-열기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#url-%EB%A7%81%ED%81%AC-%EC%97%B4%EA%B8%B0&quot; aria-label=&quot;url 링크 열기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;url 링크 열기&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;a태그의 href=&quot;&quot; 이용&lt;/li&gt;
+&lt;li&gt;onclick 이용&lt;br&gt;
+“location.href=&quot;&quot; =&gt; 현재 페이지에서 오픈&lt;br&gt;
+window.open(&quot;&quot;) =&gt;target=_blank와 같은 효과 (새로운창)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;word-break-word-wrap&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#word-break-word-wrap&quot; aria-label=&quot;word break word wrap permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;word-break, word-wrap&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;word-break : 텍스트가 길어 지는 경우 줄 바꿈 제어 (단어 분리)
+break-all - 글자 기준, keep-all - 단어 기준&lt;/li&gt;
+&lt;li&gt;word-wrap : 띄어쓰기가 없는 긴 단어를 어떻게 처리할지 정함 (줄 바꿈 설정)
+break-word - 보통 안 바꿔지는 단어들을 한 줄에서 대신 줄을 바꿀 만한 지점이 없을 시 임의의 지점에서 줄을 바꿈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;뷰포트와-미디어쿼리-관계&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B7%B0%ED%8F%AC%ED%8A%B8%EC%99%80-%EB%AF%B8%EB%94%94%EC%96%B4%EC%BF%BC%EB%A6%AC-%EA%B4%80%EA%B3%84&quot; aria-label=&quot;뷰포트와 미디어쿼리 관계 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;뷰포트와 미디어쿼리 관계❓❓&lt;/h2&gt;
+&lt;h3 id=&quot;아무리-미디어-쿼리를-설정하더라도-뷰포트를-설정하지않으면-미디어-쿼리가-정상적으로-작동하지-않는다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%84%EB%AC%B4%EB%A6%AC-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%AC%EB%A5%BC-%EC%84%A4%EC%A0%95%ED%95%98%EB%8D%94%EB%9D%BC%EB%8F%84-%EB%B7%B0%ED%8F%AC%ED%8A%B8%EB%A5%BC-%EC%84%A4%EC%A0%95%ED%95%98%EC%A7%80%EC%95%8A%EC%9C%BC%EB%A9%B4-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%AC%EA%B0%80-%EC%A0%95%EC%83%81%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4&quot; aria-label=&quot;아무리 미디어 쿼리를 설정하더라도 뷰포트를 설정하지않으면 미디어 쿼리가 정상적으로 작동하지 않는다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;아무리 미디어 쿼리를 설정하더라도 뷰포트를 설정하지않으면, 미디어 쿼리가 정상적으로 작동하지 않는다&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;미디어 쿼리는 기기의 width(가로)에 반응하여 작동&lt;/li&gt;
+&lt;li&gt;뷰포트를 설정하지 않으면 스마트폰으로 접속시에도 가로 길이가 PC처럼 큰 값으로 측정되기 때문&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;text-overflow-조건&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#text-overflow-%EC%A1%B0%EA%B1%B4&quot; aria-label=&quot;text overflow 조건 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;text-overflow 조건&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;width 또는 height가 고정적일 것&lt;/li&gt;
+&lt;li&gt;overflow: hidden; 을 사용해 영역을 감출 것&lt;/li&gt;
+&lt;li&gt;아래줄로 내려가는 것을 막기위해 white-space: nowrap 등이 필요&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;h4 id=&quot;사진-자료-및-사이트-출처&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A7%84-%EC%9E%90%EB%A3%8C-%EB%B0%8F-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%B6%9C%EC%B2%98&quot; aria-label=&quot;사진 자료 및 사이트 출처 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사진 자료 및 사이트 출처&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://bkdevlog.netlify.com/posts/oop-class-of-js&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bkdevlog.netlify.com/posts/oop-class-of-js&lt;/a&gt;&lt;br&gt;
-프로토타입 사진&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://webclub.tistory.com/136&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://webclub.tistory.com/136&lt;/a&gt;&lt;br&gt;
-클래스 vs 함수 사진&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://poiemaweb.com/es6-arrow-function&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://poiemaweb.com/es6-arrow-function&lt;/a&gt;&lt;br&gt;
-화살표 함수 사진 및 사이트&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-difference-between-sessionstorage-localstorage-and-Cookies&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.quora.com/What-is-the-difference-between-sessionstorage-localstorage-and-Cookies&lt;/a&gt;&lt;br&gt;
-브라우저 데이터 공간 차이점 사이트&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://junspapa-itdev.tistory.com/22&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://junspapa-itdev.tistory.com/22&lt;/a&gt;, &lt;a href=&quot;http://b1ix.net/266&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://b1ix.net/266&lt;/a&gt;&lt;br&gt;
-객체 안에 값 대입&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://jsdev.kr/t/for-in-vs-for-of/2938&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://jsdev.kr/t/for-in-vs-for-of/2938&lt;/a&gt;&lt;br&gt;
-배열 및 객체 순회&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://poiemaweb.com/es6-symbol&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://poiemaweb.com/es6-symbol&lt;/a&gt;
-JS symbol&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://bblog.tistory.com/300&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bblog.tistory.com/300&lt;/a&gt;&lt;br&gt;
-map 함수&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29-30) Wecode study 2일,3일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hamadevelop.me/reactfunctionclassdiff/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.hamadevelop.me/reactfunctionclassdiff/&lt;/a&gt;
+리액트 컴포넌트 차이&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[(1/29 - 1/30) Wecode study 2일,3일차]]></description><link>https://pgs787.github.io/pages/posts/javascript</link><guid isPermaLink="false">https://pgs787.github.io/pages/posts/javascript</guid><pubDate>Wed, 29 Jan 2020 23:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript%EB%9E%80&quot; aria-label=&quot;javascript란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript란❔&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;넷스케이프 커뮤니케이션즈사(Netscape Communications)가 개발한 스크립트 언어&lt;/li&gt;
 &lt;li&gt;웹을 풍부하게 만들어주는 작고 가벼운 언어&lt;/li&gt;
