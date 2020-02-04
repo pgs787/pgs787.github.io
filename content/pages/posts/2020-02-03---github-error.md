@@ -6,8 +6,8 @@ draft: false
 slug: "gitHub error"
 category: "gitHub error"
 tags:
-  - "Github"
-  - "CRLF"
+  - "github"
+  - "crlf"
 description: "CRLF 문제 해결 방법"
 socialImage: ""
 ---
