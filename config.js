@@ -21,7 +21,6 @@ module.exports = {
     photo: "/photo.jpg",
     bio: "Front End .Develop",
     contacts: {
-      email: "rltjd787@gmail.com",
       facebook: "",
       telegram: "",
       twitter: "",
