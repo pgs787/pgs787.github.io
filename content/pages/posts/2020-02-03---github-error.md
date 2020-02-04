@@ -20,13 +20,13 @@ socialImage: ""
 
 #### 1. git global 설정
 
-1. Windows
+- Windows
 
 ```
    git config --global core.autocrlf true
 ```
 
-2. Unix or Mac OS
+- Unix or Mac OS
 
 ```
    git config --global core.autocrlf input

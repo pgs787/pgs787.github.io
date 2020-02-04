@@ -20,7 +20,7 @@ socialImage: ""
 ### 2. 접속했었던 WIFI 리스트 확인
 
 ```
-netsh wlan show
+netsh wlan show profiles
 ```
 
 ### 3. 비밀번호 알아내기
@@ -29,4 +29,4 @@ netsh wlan show
 netsh wlan show profiles name="와이파이 이름" key=clear
 ```
 
----
+### 4. 입력후 보안 설정란에 키 콘텐츠 확인하면 끝!!
