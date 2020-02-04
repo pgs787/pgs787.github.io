@@ -362,6 +362,38 @@ this.second = second;
 <li>새로운 변수로 인스턴스를 만들 때 해당 인스턴스의 값에 원하는 메소드나 프로퍼티가이 있으면 해당 객체를 탐색</li>
 <li>객체를 탐색하고 없으면 생성자인 Person의 프로토타입을 탐색</li>
 </ul>
+<h2 id="call-bind-함수" style="position:relative;"><a href="#call-bind-%ED%95%A8%EC%88%98" aria-label="call bind 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>call, bind 함수</h2>
+<h3 id="call-함수" style="position:relative;"><a href="#call-%ED%95%A8%EC%88%98" aria-label="call 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>call 함수</h3>
+<div class="gatsby-highlight" data-language="varlee = "><pre class="language-varlee = "><code class="language-varlee = ">function sum(prefix){
+    return prefix+(this.first+this.second);
+}
+// sum();
+console.log(&quot;sum.call(kim)&quot;, sum.call(kim, &#39;=&gt; &#39;)); //apply kim은 sum의 this 역할 , sum.call(kim) =&gt; 30
+console.log(&quot;lee.call(kim)&quot;, sum.call(lee, &#39;: &#39;)); // sum.call(kim) =&gt; 20</code></pre></div>
+<ul>
+<li>call의 첫 번째 인자에서 내부적인 this를 결정</li>
+<li>두 번째 인자부터 파라미터 인자 값 설정</li>
+<li>필요할 때마다 호출 시 마다 값을 바꿔주면서 실행</li>
+</ul>
+<h3 id="bind-함수" style="position:relative;"><a href="#bind-%ED%95%A8%EC%88%98" aria-label="bind 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bind 함수</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var kim = {name:&#39;kim&#39;, first:10, second:20}
+var lee = {name:&#39;lee&#39;, first:10, second:10}
+function sum(prefix){
+    return prefix+(this.first+this.second);
+}
+// sum();
+console.log(&quot;sum.call(kim)&quot;, sum.call(kim, &#39;=&gt; &#39;));
+console.log(&quot;lee.call(kim)&quot;, sum.call(lee, &#39;: &#39;));
+var kimSum = sum.bind(kim, &#39;-&gt; &#39;);
+console.log(&#39;kimSum()&#39;, kimSum()); // kimSum() -&gt; 30</code></pre></div>
+<ul>
+<li>독립적이면서도 특정 객체의 메소드 역할을 할 수 있는 함수</li>
+<li>새로운 변수를 생성해서 함수와 객체를 이어주는 역할</li>
+<li>함수에 고정된 객체 인자를 받아 새로운 함수 생성</li>
+<li>this의 값을 내부적으로 고정</li>
+<li>call과 값이 두번째 인자부터 파라미터 인자 값 설정</li>
+</ul>
+<hr>
 <h4 id="사진-자료-및-사이트-출처" style="position:relative;"><a href="#%EC%82%AC%EC%A7%84-%EC%9E%90%EB%A3%8C-%EB%B0%8F-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%B6%9C%EC%B2%98" aria-label="사진 자료 및 사이트 출처 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>사진 자료 및 사이트 출처</h4>
 <ul>
 <li><a href="https://bkdevlog.netlify.com/posts/oop-class-of-js" target="_blank" rel="nofollow noopener noreferrer">https://bkdevlog.netlify.com/posts/oop-class-of-js</a><br>
@@ -376,8 +408,10 @@ this.second = second;
 객체 안에 값 대입</li>
 <li><a href="https://jsdev.kr/t/for-in-vs-for-of/2938" target="_blank" rel="nofollow noopener noreferrer">https://jsdev.kr/t/for-in-vs-for-of/2938</a><br>
 배열 및 객체 순회</li>
-<li><a href="https://poiemaweb.com/es6-symbol" target="_blank" rel="nofollow noopener noreferrer">https://poiemaweb.com/es6-symbol</a>
+<li><a href="https://poiemaweb.com/es6-symbol" target="_blank" rel="nofollow noopener noreferrer">https://poiemaweb.com/es6-symbol</a><br>
 JS symbol</li>
 <li><a href="https://bblog.tistory.com/300" target="_blank" rel="nofollow noopener noreferrer">https://bblog.tistory.com/300</a><br>
 map 함수</li>
+<li><a href="https://opentutorials.org/module/4047/24628" target="_blank" rel="nofollow noopener noreferrer">https://opentutorials.org/module/4047/24628</a><br>
+call,bind</li>
 </ul></div></div></div><div class="Post-module--post__footer--1BvmJ"><div><p class="Meta-module--meta__date--3FNDv">Published <!-- -->30 Jan 2020</p></div><div class="Tags-module--tags--1oNz4"><ul class="Tags-module--tags__list--2UTD-"><li class="Tags-module--tags__list-item--b7tap"><a class="Tags-module--tags__list-item-link--1hQL0" href="/tag/javascript/">javascript</a></li><li class="Tags-module--tags__list-item--b7tap"><a class="Tags-module--tags__list-item-link--1hQL0" href="/tag/wecode/">wecode</a></li></ul></div><div class="Author-module--author--2kf8a"><p>Front End .Develop<a class="Author-module--author__bio-twitter--MufFK" href="https://www.twitter.com/" rel="noopener noreferrer" target="_blank"><strong>빡기</strong> on Twitter</a></p></div></div><div class="Post-module--post__comments--2T8dL"></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/pages/posts/javascript";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-f3ba9e42abc733a3e94a.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-1d9b46fa5d1abe87c6c2.js"],"component---src-templates-not-found-template-js":["/component---src-templates-not-found-template-js-03a49449e1a83219ee25.js"],"component---src-templates-tags-list-template-js":["/component---src-templates-tags-list-template-js-baa35003cfaba412c873.js"],"component---src-templates-categories-list-template-js":["/component---src-templates-categories-list-template-js-c80da1deed6cdc790507.js"],"component---src-templates-page-template-js":["/component---src-templates-page-template-js-814e63885548285c5ec8.js"],"component---src-templates-post-template-js":["/component---src-templates-post-template-js-db35ccbced849e44e59f.js"],"component---src-templates-tag-template-js":["/component---src-templates-tag-template-js-3bd87cb3691af10384b2.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-6cafed3f19330b898a97.js"],"component---src-templates-index-template-js":["/component---src-templates-index-template-js-690b599fe96973995f6a.js"]};/*]]>*/</script><script src="/webpack-runtime-49457cd1244d511d2ced.js" async=""></script><script src="/commons-fe227562659b9217dee8.js" async=""></script><script src="/netlify-identity-widget-171ffe191486f421f700.js" async=""></script><script src="/styles-21b5b135ae7cc57789ba.js" async=""></script><script src="/app-f3ba9e42abc733a3e94a.js" async=""></script><script src="/component---src-templates-post-template-js-db35ccbced849e44e59f.js" async=""></script></body></html>
