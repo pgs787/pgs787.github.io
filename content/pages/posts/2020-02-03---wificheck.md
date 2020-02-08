@@ -4,11 +4,10 @@ date: "2020-01-31T23:45:32.169Z"
 template: "post"
 draft: false
 slug: "wifi password 비밀번호"
-category: "wifi password 비밀번호"
+category: "wifi"
 tags:
   - "wifi"
-  - "cmd"
-  - "password"
+
 description: "와이파이 비밀번호 알아내기 꿀팁"
 socialImage: ""
 ---
