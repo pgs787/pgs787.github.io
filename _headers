@@ -91,15 +91,6 @@
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
   Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
   Link: </component---src-templates-page-template-js-814e63885548285c5ec8.js>; rel=preload; as=script
-/pages/contacts/
-  Link: </webpack-runtime-6a1e5ed67dcc1e3fcf33.js>; rel=preload; as=script
-  Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
-  Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-171ffe191486f421f700.js>; rel=preload; as=script
-  Link: </app-f3ba9e42abc733a3e94a.js>; rel=preload; as=script
-  Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
-  Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-814e63885548285c5ec8.js>; rel=preload; as=script
 /pages/posts/html-css
   Link: </webpack-runtime-6a1e5ed67dcc1e3fcf33.js>; rel=preload; as=script
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
@@ -109,7 +100,16 @@
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
   Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-db35ccbced849e44e59f.js>; rel=preload; as=script
-/pages/posts/Instagram html css javascript
+/pages/contacts/
+  Link: </webpack-runtime-6a1e5ed67dcc1e3fcf33.js>; rel=preload; as=script
+  Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
+  Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-171ffe191486f421f700.js>; rel=preload; as=script
+  Link: </app-f3ba9e42abc733a3e94a.js>; rel=preload; as=script
+  Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
+  Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-814e63885548285c5ec8.js>; rel=preload; as=script
+/pages/posts/gitHub error
   Link: </webpack-runtime-6a1e5ed67dcc1e3fcf33.js>; rel=preload; as=script
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
   Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
@@ -118,7 +118,7 @@
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
   Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-db35ccbced849e44e59f.js>; rel=preload; as=script
-/pages/posts/gitHub error
+/pages/posts/Instagram html css javascript
   Link: </webpack-runtime-6a1e5ed67dcc1e3fcf33.js>; rel=preload; as=script
   Link: </styles-21b5b135ae7cc57789ba.js>; rel=preload; as=script
   Link: </commons-8950d2c85de831a40684.js>; rel=preload; as=script
