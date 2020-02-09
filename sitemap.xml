@@ -5,20 +5,18 @@
 <url> <loc>https://pgs787.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/posts/Instagram html css javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/pages/posts/wifi password 비밀번호</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/pages/posts/gitHub error</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/posts/html-css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/pages/posts/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://pgs787.github.io/pages/posts/gitHub error</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://pgs787.github.io/pages/posts/wifi password 비밀번호</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/posts/react webpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://pgs787.github.io/pages/posts/react lifecycle immutable</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/posts/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/pages/posts/javascript game class function</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/enemyrains</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/error</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/tag/game</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/tag/immutable</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/instagram</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/tag/lifecycle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -28,8 +26,8 @@
 <url> <loc>https://pgs787.github.io/category/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/category/git-hub-error</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/category/html-css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/category/javascript-game</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://pgs787.github.io/category/react-lifecycle-immutable</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://pgs787.github.io/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://pgs787.github.io/category/react-lifecycle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/category/react-webpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/category/wifi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://pgs787.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
